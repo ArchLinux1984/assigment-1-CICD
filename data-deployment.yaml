@@ -21,9 +21,9 @@ spec:
         io.kompose.service: data
     spec:
       volumes:
-        - name: archLinux1984-assignment5
+        - name: archLinux1984-assignment1
           persistentVolumeClaim:
-            claimName:archLinux1984-assignment5
+            claimName:archLinux1984-assignment1
       containers:
       - env:
           - name: MYSQL_ALLOW_EMPTY_PASSWORD
@@ -53,7 +53,7 @@ spec:
         volumeMounts:
         - mountPath: "/var/lib/mysql"
           subPath: mysql
-          name: archLinux1984-assignment5
+          name: archLinux1984-assignment1
         resources: {}
       restartPolicy: Always
 status: {}
