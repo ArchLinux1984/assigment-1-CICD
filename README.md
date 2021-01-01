@@ -1,1 +1,1 @@
-# CI-CD_voting_app
+# CI-CD
